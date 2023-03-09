@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <main>
+    <div class="cointeiner">
+      <div class="result__card">
+        <h2 class="result__card--title">Your Result</h2>
+        <div class="result__card--result">
+          <p class="result__card--sum"><span class="result__card--sum-score">76</span>of 100</p>
+          <h1 class="result__card--title-result">Great</h1>
+          <p class="result__card--summary">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </div>
+      <div class="summary__card">
+        <h2 class="summary__card--title">Summary</h2>
+        <div class="summary__card--functions">
+          <div class="summary__card--reaction card__box">
+            <p class="summary__card--reaction-title"><img src="./assets/images/icon-reaction.svg" alt="">Reaction</p>
+            <p class="summary__card--reaction-title-score score-text">
+              <span>80</span>/100</p>
+          </div>
+          <div class="summary__card--memory card__box">
+            <p class="summary__card--memory-title"><img src="./assets/images/icon-memory.svg" alt="">Memory</p>
+            <p class="summary__card--memory-title-score score-text">
+              <span>92</span>/100</p>
+          </div>
+          <div class="summary__card--verbal card__box">
+            <p class="summary__card--verbal-title"><img src="./assets/images/icon-verbal.svg" alt="">Verbal</p>
+            <p class="summary__card--verbal-title-score score-text">
+              <span>61</span>/100</p>
+          </div>
+          <div class="summary__card--visual card__box">
+            <p class="summary__card--visual-title"><img src="./assets/images/icon-visual.svg" alt="">Visual</p>
+            <p class="summary__card--visual-title-score score-text">
+              <span>72</span>/100</p>
+          </div>
+        </div>
+        <button class="summary__card--btn">Continue</button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
